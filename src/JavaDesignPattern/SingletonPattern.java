@@ -1,6 +1,6 @@
 package JavaDesignPattern;
 
-public class SingletonPattern {
+public class SingletonPattern implements Cloneable{
     private static SingletonPattern singleObj = null;
 
     private SingletonPattern() {
